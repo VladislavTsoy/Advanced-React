@@ -1,2 +1,1 @@
-# Advanced-React
-# Advanced-React
+# Isomorphic React
