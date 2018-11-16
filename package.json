@@ -30,6 +30,7 @@
     "babel-loader": "^8.0.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "webpack": "^4.25.1"

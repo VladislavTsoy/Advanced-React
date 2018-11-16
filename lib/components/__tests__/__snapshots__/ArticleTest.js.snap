@@ -29,7 +29,7 @@ exports[`Article Article Component renders correctly 1`] = `
       }
     }
   >
-    Thu Nov 15 2018
+    Invalid Date
   </div>
   <div
     style={

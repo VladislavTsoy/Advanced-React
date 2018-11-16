@@ -19,7 +19,9 @@ exports[`ArticleList ArticleList Component Renders Correctly 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      a
+    </div>
     <div
       style={
         Object {
@@ -48,7 +50,9 @@ exports[`ArticleList ArticleList Component Renders Correctly 1`] = `
           "paddingLeft": 10,
         }
       }
-    />
+    >
+      a
+    </div>
   </div>
   <div
     style={
@@ -67,7 +71,9 @@ exports[`ArticleList ArticleList Component Renders Correctly 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      b
+    </div>
     <div
       style={
         Object {
@@ -96,7 +102,9 @@ exports[`ArticleList ArticleList Component Renders Correctly 1`] = `
           "paddingLeft": 10,
         }
       }
-    />
+    >
+      b
+    </div>
   </div>
 </div>
 `;
