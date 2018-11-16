@@ -2,109 +2,29 @@
 
 exports[`ArticleList ArticleList Component Renders Correctly 1`] = `
 <div>
-  <div
-    style={
+  <ArticleContainer
+    article={
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+        "authorId": "a",
+        "body": "a",
+        "date": "a",
+        "id": "a",
+        "title": "a",
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    >
-      a
-    </div>
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a>
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 10,
-        }
-      }
-    >
-      a
-    </div>
-  </div>
-  <div
-    style={
+    key="a"
+  />
+  <ArticleContainer
+    article={
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+        "authorId": "b",
+        "body": "b",
+        "date": "b",
+        "id": "b",
+        "title": "b",
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    >
-      b
-    </div>
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a>
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 10,
-        }
-      }
-    >
-      b
-    </div>
-  </div>
+    key="b"
+  />
 </div>
 `;
