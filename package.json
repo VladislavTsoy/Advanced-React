@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
@@ -26,6 +26,7 @@
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
     "babel-loader": "^8.0.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4",

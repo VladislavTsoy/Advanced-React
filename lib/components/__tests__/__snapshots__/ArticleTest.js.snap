@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Article Component renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "borderBottomColor": "#aaa",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": 1,
+      "marginBottom": 10,
+      "paddingBottom": 10,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    title
+  </div>
+  <div
+    style={
+      Object {
+        "color": "#888",
+        "fontSize": "0.85em",
+      }
+    }
+  >
+    Thu Nov 15 2018
+  </div>
+  <div
+    style={
+      Object {
+        "paddingBottom": 10,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <a>
+       
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": 10,
+      }
+    }
+  >
+    body
+  </div>
+</div>
+`;
